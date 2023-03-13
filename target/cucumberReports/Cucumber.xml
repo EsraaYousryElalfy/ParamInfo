@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.620967">
+<testcase classname="PurchaseWindows" name="Register a new valid user" time="25.620967">
+<system-out><![CDATA[Given The user launched the Application.....................................passed
+When The user navigates to the Register page................................passed
+And The user registers new User Successfully................................passed
+And The User Registered Successfully........................................passed
+And The user clicks on continue button......................................passed
+When The user navigates to the Login page...................................passed
+And The User enters login credentials.......................................passed
+Then The user logged in successfully........................................passed
+When The user searches about Product as "Windows 8 Pro".....................passed
+And The user selects the search suggestion no "1"...........................passed
+And The user adds the "Windows 8 Pro" in the cart...........................passed
+And The user complete Checkout for "1"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
